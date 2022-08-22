@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: 	#9eab9a;
+}
+
+.main-content{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color: #555f51;
+}
+
+.right-section{
+    grid-column: span 5;
+    height: 100%;
+    background-color: #fff4e9;
+}
+
+.left-content{
+    padding: 1rem 3rem;
+}
+
+.profile{
+    width: 100%;
+    border-bottom: 1px solid #353c32;
+}
+
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid #353c32;
+}
+
+.name{
+    font-size: 2rem;
+    color: #fff4e9;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.8rem 0;
+}
+
+.career{
+    font-size: 1.2rem;
+    color: #9eab9a;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.8rem;
+}
+
+.main-title{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff4e9;
+    padding-top: 1.5rem;
+}
+
+.contact-info ul{
+    padding-top: 1.8rem;
+}
+
+.contact-info ul li{
+    padding: 0.4rem 0;
+    display: flex;
+    align-items: center;
+    color: #a9b0a7;
+}
+
+.contact-info ul li i{
+    padding-right: 1rem;
+    font-size: 1.1rem;
+    color: #9eab9a;
+}
+
+.skills-section ul{
+    padding-top: 1.1rem;
+}
+
+.skills-section ul li{
+    padding: 0.4rem 0;
+}
+
+.skills-title{
+    text-transform: uppercase;
+    color: #a9b0a7;
+    font-size: 0.9rem;
+    padding: 0.2rem 0;
+}
+
+.right-main-content{
+    padding: 1rem 3rem;
+}
+
+.right-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #555f51;
+    padding-bottom: 1.2rem;
+    position: relative;
+}
+
+.para{
+    line-height: 1.4rem;
+    color: #353c32;
+    font-size: 1.1rem;
+     
+}
+
+.sect{
+    padding-bottom: 2rem;
+}
+
+.timeline{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tl-title{
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    color: #353c32;
+    text-transform: uppercase;
+}
+
+.tl-title-2{
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    color: #353c32;
+    text-transform: uppercase;
+}
+
+.tl-content{
+    border-left: 1px solid #a9b0a7;
+    padding-left: 1rem;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.tl-title-2::before{
+    content: "";
+    position: absolute;
+    width: .7rem;
+    height: .7rem;
+    background-color: #a9b0a7;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    left: 0;
+}
+
+a:link {
+  color: #353c32;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #353c32;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #a9b0a7;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
