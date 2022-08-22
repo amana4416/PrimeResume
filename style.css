@@ -39,12 +39,6 @@ body{
     border-bottom: 1px solid #353c32;
 }
 
-.profile img{
-    width: 100%;
-    border-radius: 50%;
-    border: 8px solid #353c32;
-}
-
 .name{
     font-size: 2rem;
     color: #fff4e9;
